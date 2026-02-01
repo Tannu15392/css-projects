@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 90px 100px;
+    gap: 60px;
+}
+
+#left{
+    width: 45%;
+}
+
+#left h1{
+    font-size: 110px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+#info{
+    margin-top: 140px;
+    width: 70%;
+}
+
+#colors{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+    padding: 8px 14px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+#colors span{
+    font-size: 16px;
+}
+
+.clr{
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+}
+
+.black{
+    background: #000;
+}
+
+.grey{
+    background: #aaa;
+}
+
+#info h4{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+#info p{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+}
+
+#right{
+    width: 55%;
+    position: relative;
+}
+
+#top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+#top h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#top h5{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#image-box{
+    height: 95%;
+    width: 100%;
+    position: relative;
+}
+
+#image-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#image-box button{
+    position: absolute;
+    right: -45px;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    padding: 14px 30px;
+    background: #000;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#vertical{
+    position: absolute;
+    left: 3px;
+    bottom: 45%;
+    transform: rotate(-90deg);
+    transform-origin: left bottom;
+    font-size: 26px;
+    font-weight: 500;
+}
