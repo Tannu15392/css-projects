@@ -4,7 +4,7 @@
 This repository contains two CSS-based web pages created as part of my front-end practice.
 The focus of these projects is layout design, styling, and responsiveness using pure HTML and CSS.
 
-## 🔗 Live Projects
+## 🔗 Live Projects.
 - CSS Page 1: https://tannu15392.github.io/css-projects/CSS_page1/
 - CSS Page 2: https://tannu15392.github.io/css-projects/CSS_page2/
 
